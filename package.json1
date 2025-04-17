@@ -1,0 +1,15 @@
+{
+  "name": "tokensave",
+  "version": "1.0.0",
+  "description": "TokenSave AutoDeploy System",
+  "main": "tokensave-api/server.js",
+  "scripts": {
+    "start": "node tokensave-api/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-telegram-bot-api": "^0.61.0",
+    "sqlite3": "^5.1.2",
+    "stellar-sdk": "^10.5.1"
+  }
+}
